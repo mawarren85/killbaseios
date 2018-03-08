@@ -12,6 +12,11 @@
 		A57D5DE520220FF4000397BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57D5DE320220FF4000397BE /* Main.storyboard */; };
 		A57D5DE720220FF4000397BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57D5DE620220FF4000397BE /* Assets.xcassets */; };
 		A57D5DEA20220FF4000397BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57D5DE820220FF4000397BE /* LaunchScreen.storyboard */; };
+		A5A26D612022352F0064C556 /* assassinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A26D602022352F0064C556 /* assassinTableViewCell.swift */; };
+		A5A26D63202249E90064C556 /* SingleAssassinPhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A26D62202249E90064C556 /* SingleAssassinPhotoTableViewCell.swift */; };
+		A5A26D65202298A20064C556 /* assassinListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A26D64202298A20064C556 /* assassinListTableViewController.swift */; };
+		A5A26D672022D0790064C556 /* testData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A26D662022D0790064C556 /* testData.swift */; };
+		A5A26D69202364D60064C556 /* MyToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A26D68202364D50064C556 /* MyToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		A57D5DE620220FF4000397BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A57D5DE920220FF4000397BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A57D5DEB20220FF4000397BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A26D602022352F0064C556 /* assassinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assassinTableViewCell.swift; sourceTree = "<group>"; };
+		A5A26D62202249E90064C556 /* SingleAssassinPhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAssassinPhotoTableViewCell.swift; sourceTree = "<group>"; };
+		A5A26D64202298A20064C556 /* assassinListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assassinListTableViewController.swift; sourceTree = "<group>"; };
+		A5A26D662022D0790064C556 /* testData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testData.swift; sourceTree = "<group>"; };
+		A5A26D68202364D50064C556 /* MyToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +66,12 @@
 			children = (
 				A57D5DDF20220FF4000397BE /* AppDelegate.swift */,
 				A57D5DE120220FF4000397BE /* ViewController.swift */,
+				A5A26D602022352F0064C556 /* assassinTableViewCell.swift */,
+				A5A26D64202298A20064C556 /* assassinListTableViewController.swift */,
+				A5A26D662022D0790064C556 /* testData.swift */,
+				A5A26D62202249E90064C556 /* SingleAssassinPhotoTableViewCell.swift */,
 				A57D5DE320220FF4000397BE /* Main.storyboard */,
+				A5A26D68202364D50064C556 /* MyToDo.swift */,
 				A57D5DE620220FF4000397BE /* Assets.xcassets */,
 				A57D5DE820220FF4000397BE /* LaunchScreen.storyboard */,
 				A57D5DEB20220FF4000397BE /* Info.plist */,
@@ -136,8 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A26D69202364D60064C556 /* MyToDo.swift in Sources */,
+				A5A26D612022352F0064C556 /* assassinTableViewCell.swift in Sources */,
+				A5A26D63202249E90064C556 /* SingleAssassinPhotoTableViewCell.swift in Sources */,
+				A5A26D65202298A20064C556 /* assassinListTableViewController.swift in Sources */,
 				A57D5DE220220FF4000397BE /* ViewController.swift in Sources */,
 				A57D5DE020220FF4000397BE /* AppDelegate.swift in Sources */,
+				A5A26D672022D0790064C556 /* testData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
